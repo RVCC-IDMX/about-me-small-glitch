@@ -1,0 +1,17 @@
+body{
+  font-family:"Alumni Sans Collegiate One";
+  background-color:#ACDEE5 ;
+  color:#1A86E6;
+}
+h1,h2,h3,h4,h5,h6{
+font-family:"PT Serif";
+font-size:40px;
+}
+header{
+  text-align:center;
+}
+
+/*contactForm*/
+#formElements{
+  display:grid;
+}

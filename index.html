@@ -1,65 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="Syle.css">
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WebDev</title>
+    <meta name="viewport" content ="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+   <title>about me</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One@1&family=Open+Sans&family=PT+Serif,wght@1,700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <class=header>
-        <h1> Welcome</h1>
-    </class>
     
-    <class=main>
-        <class=maint>
-           <p> I have this acoomplishment</p> 
-        </class>
-        <class="mainc">
-            <p> hear is a list of how this accomplishment</p>
-            <ol>
-                <li>work </li>
-                <li>hard</li>
-                <li>play</li>
-                </ol>
-            </f>
-            </class>
+            <main>
 
+
+                <section id="contact">
         
-    
-    <class=main>
-        <class=maint>
-            <p> I have this acoomplishment t00</p> 
-         
+                    <h2>Contact Us:</h2>
+                    
+                    <form id="contactform" name="contactform" data-netlify="true" meathod="post">
+                        <fieldset>
+                            <legend>Contact Form</legend>
+                            <div id="formElements">
         
-        <claas="mainc">
-             <p> hear is a list of how this accomplishment</p>
-             <ol>
-                 <li>work </li>
-                 <li>hard</li>
-                 <li>play</li>
-                 </ol>
-                </class>
-    <class=<comments>
-        <class=cp>
-            <img src="prof1.jpg" atl=""guy">
+                    
+                                <!--Name-->
+                                <lable for="name">name (required)</lable> 
+                                <input type="text" id="name" name="name" required>
+        
+                                <!--email-->
+                                <lable for="email">email (required)</lable> 
+                                <input type="text" id="email" name="email" required>
 
-        </cp>
-        <class=cwt>
-            <p> i had feeling</p>
-        </class>
+                                <!--phone-->
+                                <lable for="phone">phone</lable> 
+                                <input type="tel" id="phone" name="phone" >
 
-    </comments>
-    <class=<comments>
-        <class=cp>
-            <img src="prof2.jpg" atl=""girl">
+                                <!--phonetype-->
+                                <lable for="phonetype"> Phone Type</lable>
+                                <select id="phonetype" name="phonetype">
+                                    <option value=""selected>Select phon type</option>
+                                    <option value="mobil">mobil</option>
+                                    <option value="work">work</option>
+                                    <option value="home">home</option>
 
-        </cp>
-        <class=cwt>
-            <p> i had feeling</p>
-        </class>
 
-    </comments>
+                                </select>
+                                <!--message-->
+                                <lable for="message">Messsage (optional)</lable> 
+                                <textarea id="message" name="message" rows="8"></textarea>
+
+                                <!--reply-->
+                                <feildset>
+                                    <legend> Would you like a reply</legend>
+
+                                    <ul>
+                                        <li>
+                                            <input type="radio" id="yes" name="reply" value="yes">
+                                           
+                                            <lable for="yes">yes</lable>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="no" name="reply" checked value="no">
+                                           
+                                            <lable for="no"> no</lable>
+                                        </li>
+                                    </ul>
+                                </feildset>
+                                <!--submit-->
+                                <button type="submit">Send</button>
+        
+                            </div>
+                        </fieldset>
+                    </form>
+                </section>
+            </main>
+
  
          
      
